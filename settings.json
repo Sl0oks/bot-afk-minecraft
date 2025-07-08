@@ -1,0 +1,48 @@
+{
+  "bot-account": {
+    "username": "Servidor",
+    "password": "",
+    "type": "offline"
+  },
+  "server": {
+    "ip": "bitvalley.aternos.me",
+    "port": 29945,
+    "version": false
+  },
+  "utils": {
+    "antiAfk": {
+      "enabled": true,
+      "sneak": true,
+      "randomMovements": true,
+      "minInterval": 15000,
+      "maxInterval": 30000,
+      "interactions": {
+        "redstone": true,
+        "doors": true,
+        "chests": true,
+        "furnaces": true
+      }
+    },
+    "chatMessages": {
+      "enabled": false,
+      "messages": []
+    },
+    "autoReconnect": {
+      "enabled": true,
+      "initialDelay": 5000,
+      "maxDelay": 60000,
+      "maxAttempts": 100,
+      "backoffFactor": 1.5
+    },
+    "advanced": {
+      "preventDetection": true,
+      "randomActionWeights": {
+        "walk": 0.3,
+        "jump": 0.2,
+        "redstone": 0.25,
+        "doors": 0.15,
+        "blocks": 0.1
+      }
+    }
+  }
+}
