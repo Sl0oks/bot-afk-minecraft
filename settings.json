@@ -6,7 +6,7 @@
   },
   "server": {
     "ip": "coloque o ip do server",
-    "port": coloque a porta do server,
+    "port": 000000,
     "version": false
   },
   "utils": {
