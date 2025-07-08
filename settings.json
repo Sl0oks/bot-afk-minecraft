@@ -5,8 +5,8 @@
     "type": "offline"
   },
   "server": {
-    "ip": "bitvalley.aternos.me",
-    "port": 29945,
+    "ip": "coloque o ip do server",
+    "port": coloque a porta do server,
     "version": false
   },
   "utils": {
